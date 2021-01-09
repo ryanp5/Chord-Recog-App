@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="uploadmusic.js"></script>
+    <script src = "metronome.js"></script>
+
+  </head>
+  <body>
+    <a href="index.html">Back</a>
+    <!-- <input id="music1" type="file" accept="audio/*" >  -->
+    <div class="content-center">
+      <button type ="button" class="btn btn-success btn-lg" id = "metronome_btn" data-playing="false" role="switch" aria-checked="false">
+        Play
+      </button>
+    </div>
+    <div class = "input-group">
+      <label class="input-group-number">BPM</label>
+      <input class="form-control" id = "bpm_input" type ="number" value="100" >
+      <div class="input-group-prepend"> 
+      <label>Beat</label>
+      <input  class="form-control" id = "beats" type ="number" value="4" >
+    </div>
+    <audio id="metronome">
+        <source src ="Music/MetronomeShort.mp3">
+    </audio>
+    
+    <div class="w-100 p-3 h-75">
+      <h1 id="current_note" class="display-1 text-center"></h1>
+    </div>
+
+    </div>
+  </body>
+</html>
