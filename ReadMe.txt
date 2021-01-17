@@ -1,12 +1,6 @@
-#Song thingo
+Chord Recognition App
+Working metronome with adjustable BPM, plays a random chord from the selection on the specified beat.
 
-
-My twitter
-https://twitter.com/Reezpee
-
-
-Some dude
-https://soundcloud.com/liamvmusic
 
 Some Code taken from:
 https://github.com/dcbriccetti/metronome
